@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+		.clear{
+			clear:both;
+		}
+		#logo{
+			margin-top: 20px;
+			float: left;
+		} 
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		header{
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+		}
+		nav{
+			color: white;
+			background-color: #FF6701;
+			width: 1000px;
+			height: 70px;
+			margin-top: 10px; 
+			border: solid 1px #cccccc;
+		}
+		nav li{
+			float: left;
+			margin: 20px 50px;
+		}
+
+		h2{
+			list-style-type: none;
+			display: inline-block;
+		}
+		li{
+			display: block;
+		}
+		section{
+			float: left;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+		}
+		aside{
+			float: left;
+			width: 158px;
+			/*padding-left: 27px;*/
+			margin-left: 40px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+		}
+		aside li{
+			margin-bottom: 26px;
+		}
+		footer{
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+		}
+		#address{
+			float: left;
+			margin: 30px 0 0 20px;
+		}
+		#customer{
+			float: right;
+			margin: 30px 0 0 180px;
+		}
+		
+		.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: gray;
+			width: 100px;
+			padding: 12px 16px;
+		}
+
+		.dropdown:hover .dropdown-content{
+			display: block;
+		}
+
+
+	</style>
+	</style>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			
+		</div>
+		<img src="./img/main1.png" height="100"> 
+		<div id="top">
+			로그인 ｜ 회원가입 ｜ 마이페이지 ｜ 더보기
+		</div>
+	</header>
+	<div class="clear"></div><!--속성해제-->
+	<nav>
+		<ul class="dropdown">
+			<h2>아시아&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+			    <div class="dropdown-content">
+			    	<p>홍콩</p>
+			    	<p>마카오</p>
+			    	<p>일본</p>
+			    	<p>중국</p>
+			    </div>
+		</ul>
+		<ul class="dropdown">
+			<h2>동남아&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+			    <div class="dropdown-content">
+			    	<p>싱가폴</p>
+			    	<p>태국</p>
+			    	<p>필리핀</p>
+			    	<p>베트남</p>
+			    </div>
+
+	    </ul>
+	    <ul class="dropdown">
+			<h2>유럽&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+			    <div class="dropdown-content">
+			    	<p>파리</p>
+			    	<p>로마</p>
+			    	<p>런던</p>
+			    	<p>바르셀로나</p>
+			    </div>
+			 
+	    </ul>
+	    <ul class="dropdown">
+			<h2>미국&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+			    <div class="dropdown-content">
+			    	<p>뉴욕</p>
+			    	<p>하와이</p>
+			    </div>
+			 
+	    </ul>
+	    <ul class="dropdown">
+			<h2>남태평양&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+			    <div class="dropdown-content">
+			    	<p>괌</p>
+			    	<p>시드니</p>
+			    	
+			    </div>
+			 
+	    </ul>
+	    <ul class="dropdown">
+			<h2>대한민국&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+			    <div class="dropdown-content">
+			    	<p>서울</p>
+			    	<p>제주</p>
+			    	<p>부산</p>
+			    	<p>제주</p>
+			    </div>
+			 
+	    </ul>
+	</nav>
+	<div class="clear"></div><!--속성해제-->
+	<section >
+		<img src="./img/hongkong main.PNG" width="800" height="200">
+	</section>
+	<aside>
+		<ul>
+			<li>일정</li>
+			     
+			<li>테마</li>
+		
+			<li>명소</li>
+			<li>숙박</li>
+		</ul>
+	</aside>
+
+	<section class="clear">
+		<hr style="border: dotted 10px #FF6701;">
+		<h1>추천일정</h1>
+		<img src="./img/hongkong1.PNG" width="495" >
+		<img src="./img/hongkong2.PNG" width="495"> <br>
+
+	<section class="clear">
+		<br><br><br><br><br><br><br><br><br>
+		<hr style="border: dotted 10px #FF6701;">
+		<h1>추천일정</h1>
+		<img src="./img/hongkong3.PNG" width="495" >
+		<img src="./img/hongkong4.PNG" width="495"> <br>
+		<img src="./img/hongkong5.PNG" width="495" >
+		<img src="./img/hongkong6.PNG" width="495"> <br>
+		
+	</section>
+	<div class="clear"></div><!--속성해제-->
+	<footer>
+		<div id="address">
+			이용약관 ｜ 개인정보 ｜ 처리방침 ｜ 고객센터 ｜ 광고문의
+		</div>
+		<div id="customer">
+			<label>언어
+    <select name="area">
+      <option value="seoul">한국어</option>
+      <option value="gyeonggi">중국어</option>
+      <option value="jeolla">영어</option>
+    </select> 
+		</div>
+	</footer>
+
+	
+
+</body>
+</html>
